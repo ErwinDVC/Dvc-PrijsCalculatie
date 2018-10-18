@@ -1,0 +1,22 @@
+{
+    "name": "dvc/prijs-calculatie",
+    "description": "De Magento2 prijscalculatiemodule (opvolger van de vierkante meter prijsberekening)",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erwin de Jong",
+            "email": "ejong@dvc.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "Registration.php"
+        ],
+        "psr-4": {
+            "Dvc\\PriceCalculation\\": ""
+        }
+    }
+}
